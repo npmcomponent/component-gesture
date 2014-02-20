@@ -1,6 +1,7 @@
 {
-  "name": "gesture-component",
+  "name": "component-gesture",
   "description": "Higher level gesture API built on hammer.js",
+  "version": "0.0.3",
   "keywords": [
     "gesture",
     "hammer",
@@ -9,18 +10,8 @@
     "zoom",
     "rotate"
   ],
-  "version": "0.0.3",
   "dependencies": {
-    "emitter-component": "*",
-    "hammerjs": "0.6.2"
-  },
-  "component": {
-    "scripts": {
-      "gesture/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/gesture.git"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-hammer.js": "git://github.com/npmcomponent/component-hammer.js.git"
   }
 }

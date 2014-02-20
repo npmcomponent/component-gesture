@@ -2,8 +2,8 @@
  * Module dependencies.
  */
 
-var Hammer = require('hammer')
-  , Emitter = require('emitter');
+// commented out by npm-component: var Hammer = require('hammer')
+  , Emitter = require('emitter');'component-emitter'
 
 /**
  * Bind gestures to `el`.
